@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scrapyparsers"
+version = "0.1.0"
+description = ""
+authors = ["Roman <roman.nieronov@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
