@@ -1,13 +1,15 @@
 [tool.poetry]
 name = "scrapyparsers"
 version = "0.1.0"
-description = ""
-authors = ["Roman <roman.nieronov@mail.ru>"]
+description = "The Wiki Movies Scraper is a Scrapy project designed to collect information on movies from Wikipedia, including their Title, Genre, Director, Country & Year, and IMDB Rating. The data is then stored in a CSV format."
+authors = ["Roman <roman.nieronov@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 scrapy = "^2.11.0"
+pymorphy2 = "^0.9.1"
+black = {extras = ["d"], version = "^24.1.1"}
 
 
 [build-system]

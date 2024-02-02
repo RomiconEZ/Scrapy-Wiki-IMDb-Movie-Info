@@ -1,14 +1,14 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
 class WikiMoviesScraperItem(scrapy.Item):
-    title = scrapy.Field()
-    genre = scrapy.Field()
-    director = scrapy.Field()
-    country = scrapy.Field()
-    year = scrapy.Field()
+    """
+    Scrapy Item for storing movie data.
+    """
+
+    title = scrapy.Field()  # Title of the movie
+    genre = scrapy.Field()  # Genre(s) of the movie
+    director = scrapy.Field()  # Director(s) of the movie
+    country = scrapy.Field()  # Country or countries of production
+    year = scrapy.Field()  # Release year of the movie
+    rating = scrapy.Field()  # IMDb rating of the movie
