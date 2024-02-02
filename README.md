@@ -16,7 +16,7 @@ To use it in your language, change the scraping parameters related to the select
 ## Installation and Setup
 Clone the repository and navigate to the project directory:
 ```bash
-git clone <repository-url>
+git clone https://github.com/RomiconEZ/Scrapy-Wiki-IMDb-Movie-Info.git
 ```
 ```bash
 cd wiki_movies_scraper
